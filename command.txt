@@ -1,0 +1,5 @@
+python DataArg.py -i data/raw_kinoko -o data/train/kinoko 
+python DataArg.py -i data/raw_takenoko -o data/train/takenoko
+python train_kinoko_takenoko.py 
+
+
